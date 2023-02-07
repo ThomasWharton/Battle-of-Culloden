@@ -1,1 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Playfair+Display&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+
+}
+
+header {
+    background-color: #005EB8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+#logo {
+    font-family: 'Cinzel', serif;
+    color: #fff;
+}
