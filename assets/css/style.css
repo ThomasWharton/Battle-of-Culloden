@@ -6,12 +6,9 @@
     border: none;
 }
 
-body {
-
-}
-
 header {
     background-color: #005EB8;
+    letter-spacing: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,9 +19,17 @@ header a {
     text-decoration: none;
 }
 
+nav {
+    display: none;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 nav li {
@@ -40,4 +45,32 @@ nav a {
 #logo {
     font-family: 'Cinzel', serif;
     color: #fff;
+}
+
+.toggle-nav:checked ~ nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #005EB8;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 33%;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.toggle-nav-label {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+div.hero-image {
+    background: url(../images/The_Battle_of_Culloden.jpg) no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
 }

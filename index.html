@@ -8,14 +8,19 @@
     <meta name="keywords" content="Battle of Culloden, tourism, Scotland, visitor centre, jacobite rising, Culloden">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Battle of Culloden</title>
 </head>
 <body>
     <header>
+
      <a href="#home">
       <h1 id="logo">Battle of Culloden</h1>
      </a>
-     <nav>
+
+     <input type="checkbox" id="toggle-nav" class="toggle-nav">
+
+      <nav>
         <ul>
             <li class="nav-link">
                 <a href="#home">Home</a>
@@ -33,19 +38,32 @@
                 <a href="#tours">Tours</a>
             </li>
         </ul>
-     </nav>
+      </nav>
+
+     <label for="toggle-nav" class="toggle-nav-label">
+        <i class="fa fa-bars"></i>
+     </label>
     </header>
-    <section>
-        Main Image
+    
+    <section id="#home">
+        <div class="hero-image">
+        </div>
     </section>
     <section>
-        Quote
+        History
     </section>
     <section>
-        Basic Information
+        Visitor Centre
+    </section>
+    <section>
+        Book a Tour
     </section>
     <footer>
         Social links
     </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/9124dfd839.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
