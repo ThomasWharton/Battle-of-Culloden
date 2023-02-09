@@ -10,6 +10,7 @@ header {
     background-color: #005EB8;
     letter-spacing: 1px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -30,6 +31,7 @@ nav ul {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    font-weight: 600;
 }
 
 nav li {
@@ -48,12 +50,12 @@ nav a {
 }
 
 .toggle-nav:checked ~ nav {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
     background-color: #005EB8;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 33%;
 }
 
 .toggle-nav {
@@ -61,8 +63,7 @@ nav a {
 }
 
 .toggle-nav-label {
-    display: flex;
-    justify-content: flex-end;
+    order: 1;
     color: #fff;
     font-size: 2rem;
 }
@@ -73,4 +74,16 @@ div.hero-image {
     background-size: cover;
     height: 50vh;
     width: 100%;
+}
+
+.history {
+    background-color: #fff;
+}
+.history-header {
+    font-family: 'Playfair Display', serif;
+    color: #005EB8;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
 }
