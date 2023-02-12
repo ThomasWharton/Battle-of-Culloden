@@ -81,12 +81,12 @@ div.hero-image {
 
 /* History Section */
 
-.history {
+#history {
     background-color: #fff;
 }
 .history-header {
     font-family: 'Playfair Display', serif;
-    color: #005EB8;
+    color: #009CFC;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -101,7 +101,7 @@ div.hero-image {
 }
 
 .history-grid p {
-    background-color: #00C5FC;
+    background-color: #009CFC;
     padding: 0.5rem;
     display: block;
     margin-left: auto;
@@ -137,4 +137,32 @@ img[src="assets/images/George_II.jpg"] {
     margin-right: auto;
     width: 80%;
     border-radius: 0.5rem;
+}
+
+/* Visitor Centre Section */
+
+#visitor-centre {
+    background-color: #009CFC;
+}
+
+.visitor-centre-header {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.visitor-centre-subheader {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    padding: 1rem;
+    font-size: 24px;
 }
