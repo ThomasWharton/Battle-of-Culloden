@@ -96,17 +96,18 @@ div.hero-image {
 
 .history-grid {
     display: grid;
-    columns: 1;
+    grid-auto-columns: 1fr;
     gap: 1rem;
+    width: min(100%, 70rem);
+    margin-inline: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .history-grid p {
     background-color: #009CFC;
     padding: 0.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    width: 75%;
     border-radius: 0.5rem;
     color: #fff;
     letter-spacing: 1px;
@@ -115,27 +116,10 @@ div.hero-image {
     text-align: left;
 }    
 
-img[src="assets/images/jacobite_uprising.jpg"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 0.5rem;
-}
-    
-img[src="assets/images/Charles_Edward_Stuart.jpg"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 0.5rem;  
-}
-
-img[src="assets/images/George_II.jpg"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+.grid-span-1,
+.grid-span-3,
+.grid-span-5 {
+    width: 77.5%;
     border-radius: 0.5rem;
 }
 
@@ -165,4 +149,22 @@ img[src="assets/images/George_II.jpg"] {
     font-size: 2rem;
     padding: 1rem;
     font-size: 24px;
+}
+
+.museum-grid {
+    display: grid;
+    columns: 1;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.brodie-sword {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
