@@ -63,7 +63,6 @@ nav a {
 }
 
 .toggle-nav-label {
-    order: 1;
     color: #fff;
     font-size: 2rem;
 }
@@ -86,4 +85,34 @@ div.hero-image {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 2rem;
+    padding: 1rem;
 }
+
+.history-grid {
+    display: grid;
+    columns: 1;
+    gap: 1rem;
+}
+
+img[src="assets/images/jacobite_uprising.jpg"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 0.5rem;
+}
+
+.history-grid p {
+    background-color: #00C5FC;
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 0.5rem;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: left;
+}        
