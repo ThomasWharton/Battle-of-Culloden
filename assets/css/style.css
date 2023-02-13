@@ -153,14 +153,20 @@ div.hero-image {
 
 .museum-grid {
     display: grid;
-    columns: 1;
+    grid-auto-columns: 1fr;
     gap: 1rem;
-    justify-content: center;
+    width: min(100%, 70rem);
+    margin-inline: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .brodie-sword {
     width: 200px;
     height: 200px;
+    padding: 0;
+    border-style: solid;
+    border-color: #fff;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -168,6 +174,48 @@ div.hero-image {
 .blunderbuss {
     width: 200px;
     height: 200px;
+    padding: 0;
+    border-style: solid;
+    border-color: #fff;
     border-radius: 50%;
     margin: 0 auto;
+}
+
+.museum-grid p {
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 75%;
+    border-radius: 0.5rem;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: left;
+}    
+
+.opening-times {
+    display: flex;
+    justify-content: center;
+
+}
+
+.opening-times table {
+    border-collapse: collapse;
+    background-color: #fff;
+    padding: 0.25rem;
+    width: 75%;
+    border-style: solid;
+    border-color: #005EB8;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.opening-times th, td {
+    padding: 0.5rem;
+    border: 1px solid #005EB8;
+    text-align: center;
 }
