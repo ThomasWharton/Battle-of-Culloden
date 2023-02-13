@@ -264,7 +264,28 @@ div.hero-image {
     text-align: center;
 }
 
-.battlefield {
-    display: block;
-    margin-top: 1rem;
+.battlefield-flex {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1rem;
 }
+
+.leanach-cottage {
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+.battlefield-flex p {
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 75%;
+    border-radius: 0.5rem;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}   
