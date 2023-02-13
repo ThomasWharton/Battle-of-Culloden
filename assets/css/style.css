@@ -127,6 +127,7 @@ div.hero-image {
 
 #visitor-centre {
     background-color: #009CFC;
+    display: block;
 }
 
 .visitor-centre-header {
@@ -203,7 +204,7 @@ div.hero-image {
     border-collapse: collapse;
     background-color: #fff;
     padding: 0.25rem;
-    width: 75%;
+    width: 400px;
     border-style: solid;
     border-color: #005EB8;
     color: #009CFC;
@@ -218,4 +219,52 @@ div.hero-image {
     padding: 0.5rem;
     border: 1px solid #005EB8;
     text-align: center;
+}
+
+.cafe-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+.cafe-menu {
+    background-color: #fff;
+    width: 400px;
+    border-style: solid;
+    border-color: #005EB8;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: center;
+    list-style: none;
+}
+
+.cafe-menu li {
+    padding: 0.5rem 0;
+}
+.cafe-opening-times {
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 400px;
+    border-style: solid;
+    border-color: #005EB8;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cafe-opening-times th, td {
+    padding: 0.5rem;
+    border: 1px solid #005EB8;
+    text-align: center;
+}
+
+.battlefield {
+    display: block;
+    margin-top: 1rem;
 }
