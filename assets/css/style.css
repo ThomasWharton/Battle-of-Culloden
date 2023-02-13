@@ -20,7 +20,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 header a {
@@ -339,7 +339,7 @@ div.hero-image {
 .contact-grid p {
     background-color: #009CFC;
     padding: 0.5rem;
-    width: 50%;
+    width: 45%;
     border-radius: 0.5rem;
     color: #fff;
     letter-spacing: 1px;
