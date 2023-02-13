@@ -415,3 +415,30 @@ div.hero-image {
     border: 1px solid #005EB8;
     text-align: center;
 }
+
+/* Footer */
+
+footer {
+    background-color: #005EB8;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-networks a {
+    color: #fff;
+    font-size: 2rem;
+}
