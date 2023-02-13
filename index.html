@@ -175,6 +175,28 @@
              <td>11-20</td>
              <td>£50</td>
         </table>
+
+        <form class="book-tour-form">
+          <label for="full-name">Full Name</label><br>
+          <input type="text" id="full-name" name="full-name"><br>
+          <label for="number">Telephone Number</label><br>
+          <input type="text" id="number" name="telephone-number"><br>
+          <label for="email">Email Address</label><br>
+          <input type="email" id="email" name="email-address"><br>          
+          <label for="group-size">Group Size</label><br>
+          <select id="group-size" name="group-size">
+            <option value="1-4">1-4</option>
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+          </select><br>
+          <label for="date">Date</label><br>
+          <input type="date" id="date" name="date" value="2023-02-28" min="2023-02-28" max="2024-01-31"><br>
+          <label for="special-requirements">Special Requirements</label><br>
+          <textarea id="special-requirements" name="special-requirements" placeholder="Please tell of us any special requirements here!" rows="10" columns="30">
+          </textarea><br><br>          
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset Form">
+        </form>
        </div>
     </section>
 
