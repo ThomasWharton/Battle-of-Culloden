@@ -126,7 +126,7 @@ div.hero-image {
 .grid-span-5 {
     width: 77.5%;
     border-radius: 0.5rem;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
 }
 
 /* Visitor Centre Section */
@@ -283,7 +283,7 @@ div.hero-image {
 .leanach-cottage {
     width: 80%;
     border-radius: 0.5rem;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
 }
 
 .battlefield-flex p {
@@ -427,13 +427,14 @@ div.hero-image {
     width: 80%;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
 }
 
 .book-tour-form label {
     color: #fff;
     font-family: 'raleway', sans-serif;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .book-tour-form .form-button {
