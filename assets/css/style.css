@@ -17,14 +17,19 @@ header {
     background-color: #005EB8;
     letter-spacing: 1px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 header a {
     text-decoration: none;
+    padding-left: 1rem;
+    margin: 0;
 }
 
 nav {
@@ -72,6 +77,8 @@ nav a {
 .toggle-nav-label {
     color: #fff;
     font-size: 2rem;
+    padding-right: 1rem;
+
 }
 
 /* Hero Image */

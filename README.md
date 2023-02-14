@@ -42,7 +42,7 @@ This site is aimed at tourists of Scotland looking to plan a day out with the ab
 
 ### Expectations
 * I expect all navigation links to function correctly.
-* I expect the website to look good on a varity of screen sizes.
+* I expect the website to look good on a variety of screen sizes.
 * I expect any social media links to navigate to a new tab.
 * I expect to know a form has been successfully submitted and that all relevant fields have been filled in correctly.
 * I expect all information provided to be accurate.
