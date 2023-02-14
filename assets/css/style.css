@@ -128,9 +128,9 @@ div.hero-image {
     text-align: left;
 }    
 
-.grid-span-1,
-.grid-span-3,
-.grid-span-5 {
+.history-grid-img-1,
+.history-grid-img-2,
+.history-grid-img-3 {
     width: 77.5%;
     border-radius: 0.5rem;
     box-shadow: 5px 5px 5px rgb(77, 77, 77);
