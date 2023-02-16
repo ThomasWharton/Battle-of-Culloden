@@ -67,7 +67,7 @@ The colours and their uses are listed below.
 * #005EB8 - This colour will be used for the header and footer elements as well as borders for table and list elements. 
 * #009CFC - This colour will be used as a background colour for sections and elements, as well as for text.
 * #0076AC - This colour will be used for the booking form background.
-* #878E8D - This colour will be used for a small amount of text.
+* #878E8D - This colour will be used for box shadows and a small amount of text.
 * #FFFFFF - This colour will be used as a background colour for sections and elements, as well as for text.
 
 ### Structure
@@ -77,9 +77,9 @@ The site will be built with mobile first mindset with the Samsung Galaxy S8+ (36
 | Screen Size | Breakpoint|
 | ------------|-----------|
 | x-small     | <576px    |
-| small       | => 576px  |
-| medium      | => 768px  |
-| large       | => 992px  |
+| small       | >= 576px  |
+| medium      | >= 768px  |
+| large       | >= 992px  |
 
 ## Wireframes
 ---
@@ -90,5 +90,16 @@ The wireframes are linked below:
 
 ## Features
 ---
+### Navigation Bar
 
+The navigation bar is fixed to the top of the screen to allow for easy access to different sections within the site. It is fully responsive in regards to different screen sizes and will change from a hamburger style drop down menu to a horizontal list on screen sizes greater than 992px. It also features the logo for the website to immediately capture the attention of the user.
+
+* Desktop (>= 992px)
+    * The navbar spans the entire width of the device and is complete with all links to direct to the different sections of the site. This allows for easy and clear access to all content for the user.
+    * The links will change colour when hovered over for better visibility for the user.
+
+* Small devices (<992px)
+    * As the screen size decreases, the navigation menu becomes too long to fit into the navbar and remain aesthetically pleasing. Therefore on devices with a screen size of 992px or less, the navigation menu will be toggled on and off via a hamburger icon. When checked, the navigation menu will appear as a dropdown list.
+
+### Home Section
 
