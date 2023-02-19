@@ -114,4 +114,36 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
     * The user will also be given information regarding the opening and closing times of the museum.
 
 * Cafe Subsection
-    * The cafe subsection will include a sample menu and the opening/closing times of the cafe.
+    * The cafe subsection includes a sample menu and the opening/closing times of the cafe.
+
+* Battlefield Subsection
+    * The battlefield subsection features an image of Leanach cottage which is situated on the battlefield. This image gives the user an idea of the beauty to be found whilst exploring the battlefield.
+    * The image is accompanied by some text describing the battlefield and other landmarks found on the battlefield.
+
+### Contact Information Section
+
+* The contact information section contains the telephone number, email address and address of the visitor centre.
+* A google maps preview is embedded in this section with the ability to open up google maps in another tab. This allows users to easily plan travel to the visitor centre. 
+
+### Book a Tour Section
+* The book a tour section includes information on the tours, such as how often they take place and pricing information for different group sizes.
+* There is also a booking form where the user can give information such as their name, email address, telephone number, group size, date of tour and special requirements. 
+* Upon successful submission of the form, the user will be brought to a thank you page, confirming successful booking of a tour. 
+
+### Footer
+
+* The footer section is styled to match the page header to maintain consistency. 
+* The footer contains links to social media pages tied to the visitor centre. When clicked, these links will open in a new tab so the user does not have to navigate back to Battle of Culloden site.
+* There is a hover effect to highlight the links, intended to improve the user experience. 
+
+### Features to be Implemented
+
+* Thank you page to include link to pay for tour in advance.
+* Social media links would link to official visitor centre pages and not home pages of social media sites.
+
+## Technologies Used
+
+### Languages
+
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
