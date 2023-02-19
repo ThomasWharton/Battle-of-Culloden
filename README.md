@@ -1,14 +1,12 @@
 # Battle of Culloden
 
 ## Introduction
----
 
 Battle of Culloden is a website giving a brief history of the Battle of Culloden and information regarding the visitor centre for the battlefield itself. 
 
 This site is aimed at tourists of Scotland looking to plan a day out with the ability to book a guided tour around the museum and battlefield.
 
 ## UX
----
 
 ### User Goals
 
@@ -48,7 +46,6 @@ This site is aimed at tourists of Scotland looking to plan a day out with the ab
 * I expect all information provided to be accurate.
 
 ## Design Choices
----
 
 ### Fonts
 
@@ -82,14 +79,13 @@ The site will be built with mobile first mindset with the Samsung Galaxy S8+ (36
 | large       | >= 992px  |
 
 ## Wireframes
----
 
 Wireframes have been developed to give a general structure and layout to the site on various device sizes. The wireframes were created using [Balsamic](https://balsamiq.com. "Balsamic"). The first wireframe was created with mobile screen size in mind and scaled up to tablet and desktop sizes. A one-page website is used to allow the user to quickly access all content available. This is especially true for mobile users who will be scrolling down continuously, rather than navigating through different pages. 
 
 The wireframes are linked below:
 
 ## Features
----
+
 ### Navigation Bar
 
 The navigation bar is fixed to the top of the screen to allow for easy access to different sections within the site. It is fully responsive in regards to different screen sizes and will change from a hamburger style drop down menu to a horizontal list on screen sizes greater than 992px. It also features the logo for the website to immediately capture the attention of the user.
@@ -103,3 +99,19 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 ### Home Section
 
+* The home section features the hero image which is an artist deptiction of the battle of Culloden. The image is very striking and works to create an interest for the user to learn more. 
+
+### History Section
+
+* The history section sets the scene with images and text content to build on the users initial interest in the battle. The images included are another depiction of the battle (similar to the hero image) and of both opposing side leaders. Each image is accompanied by some text, giving the user some basic information on the battle and the two forces.
+
+### Visitor Centre Section
+
+* The visitor centre section has 3 subsections. The subsections are for the museum, the cafe and the battlefield.
+
+* Museum Subsection
+    * The museum subsection has some information on what users will hope to find in the museum with a couple of images of sample artifacts.
+    * The user will also be given information regarding the opening and closing times of the museum.
+
+* Cafe Subsection
+    * The cafe subsection will include a sample menu and the opening/closing times of the cafe.
