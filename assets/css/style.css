@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Noto+Sans&family=Playfair+Display&display=swap');
+
 /* Global Styling */
 * {
     margin: 0;
@@ -140,6 +141,33 @@ nav a {
 
 }
 
+/* Footer */
+
+footer {
+    background-color: #005EB8;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-networks a {
+    color: #fff;
+    font-size: 2rem;
+}
+
 /* Hero Image */
 
 #home {
@@ -177,6 +205,10 @@ div.hero-image {
 
 /* Visitor Centre Section */
 
+#visitor-centre {
+    margin-bottom: 0;
+}
+
 #visitor-centre-header {
     color: #fff;
 }
@@ -196,19 +228,9 @@ div.hero-image {
     align-items: center;
 }
 
-.brodie-sword {
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    border-style: solid;
-    border-color: #fff;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.blunderbuss {
-    width: 200px;
-    height: 200px;
+.museum-img {
+    width: 20rem;
+    height: 20rem;
     padding: 0;
     border-style: solid;
     border-color: #fff;
@@ -223,11 +245,10 @@ div.hero-image {
     border-collapse: collapse;
     background-color: #fff;
     padding: 0;
-    border-style: solid;
-    border-color: #005EB8;
+    border: 0.3rem solid #005EB8;
     color: #009CFC;
-    letter-spacing: 1px;
     font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.1rem;
     line-height: 2rem;
     text-align: left;
     margin-bottom: 1rem;
@@ -235,7 +256,7 @@ div.hero-image {
 
 .opening-times th, td {
     padding: 1rem;
-    border: 1px solid #005EB8;
+    border: 0.1rem solid #005EB8;
     text-align: center;
 }
 
@@ -243,18 +264,19 @@ div.hero-image {
     display: flex;
     flex-direction: column;
     padding: 0;
+    gap: 1rem;
     justify-items: center;
     align-items: center;
 }
+
 .cafe-menu {
     background-color: #fff;
-    width: 394px;
-    border-style: solid;
-    border-color: #005EB8;
+    width: 78%;
+    border: 0.4rem solid #005EB8;
     color: #009CFC;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -270,36 +292,29 @@ div.hero-image {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    row-gap: 1rem;
+    gap: 1rem;
 }
 
 .leanach-cottage {
     width: 80%;
     border-radius: 0.5rem;
-    box-shadow: 5px 5px 5px rgb(77, 77, 77);
+    box-shadow: 0.5rem 0.5rem 0.5rem #878E8D;
 } 
+
+#battlefield-p {
+    margin-bottom: 1rem;
+}
 
 /* Contact Information Section */
 
-#contact {
-    background-color: #fff;
-}
-
-.contact-header {
-    font-family: 'Playfair Display', serif;
+#contact-header {
     color: #009CFC;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 0;
 }
 
 .contact-grid {
     display: grid;
     grid-auto-columns: 1fr;
-    gap: 0.25rem;
+    gap: 0.5rem;
     width: min(100%, 70rem);
     margin-inline: auto;
     justify-items: center;
@@ -307,28 +322,12 @@ div.hero-image {
 }
 
 .contact-subheader {
-    font-family: 'Playfair Display', serif;
     color: #009CFC;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    padding: 0.5rem;
-    font-size: 24px;
-    margin: 0;
 }
 
-.contact-grid p {
-    background-color: #009CFC;
-    padding: 0.5rem;
-    width: 45%;
-    border-radius: 0.5rem;
-    color: #fff;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
+.contact-p {
+    width: 75%;
     text-align: center;
-    margin: 0;
 }
 
 .contact-grid iframe {
@@ -427,31 +426,4 @@ div.hero-image {
 
 .book-tour-form #date {
     width: 22%;
-}
-
-/* Footer */
-
-footer {
-    background-color: #005EB8;
-    display: flex;
-    color: #fff;
-    flex-direction: row;
-    padding: 1rem;
-}
-
-.social-networks {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-evenly;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social-networks a {
-    color: #fff;
-    font-size: 2rem;
 }
