@@ -6,16 +6,76 @@
     border: none;
 }
 
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    font-size: 1.6rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.section-white {
+    background-color: #fff;
+}
+
+.section-blue {
+    background-color: #009CFC;
+}
+
+.section-header {
+    font-family: 'Playfair Display', serif;
+    color: #009CFC;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.section-subheader {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 2.5rem;
+        padding: 0 0 1rem;
+        margin: 0;
+}
+
+p {
+    letter-spacing: 0.1rem;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+    width: 75%;
+    border-radius: 0.5rem;
+}
+
+.p-blue {
+    background-color: #009CFC;
+    color: #fff;
+}
+
+.p-white {
+    background-color: #fff;
+    color: #009CFC;
 }
 
 /* Header */
 
 header {
     background-color: #005EB8;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +87,6 @@ header {
 
 header a {
     text-decoration: none;
-    padding-left: 1rem;
     margin: 0;
 }
 
@@ -40,13 +99,13 @@ nav ul {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-weight: 600;
 }
 
 nav li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 nav a {
@@ -58,15 +117,16 @@ nav a {
 #logo {
     font-family: 'Cinzel', serif;
     color: #fff;
+    font-size: 2.25rem;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
 }
 
 .toggle-nav:checked ~ nav {
+    flex: 1 1 100%;
     display: block;
-    position: absolute;
-    top: 4.5rem;
-    left: 0;
-    width: 100%;
     background-color: #005EB8;
+    font-size: 1.25rem;
 }
 
 .toggle-nav {
@@ -76,33 +136,27 @@ nav a {
 .toggle-nav-label {
     color: #fff;
     font-size: 2rem;
-    padding-right: 1rem;
+    padding: 1rem;
 
 }
 
 /* Hero Image */
 
+#home {
+    margin-bottom: 0;
+}
+
 div.hero-image {
     background: url(../images/The_Battle_of_Culloden.jpg) no-repeat center center;
     background-size: cover;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
 }
 
 /* History Section */
 
-#history {
-    background-color: #fff;
-}
-.history-header {
-    font-family: 'Playfair Display', serif;
+#history-header {
     color: #009CFC;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 0;
 }
 
 .history-grid {
@@ -115,54 +169,20 @@ div.hero-image {
     align-items: center;
 }
 
-.history-grid p {
-    background-color: #009CFC;
-    padding: 0.5rem;
-    width: 75%;
-    border-radius: 0.5rem;
-    color: #fff;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: left;
-    margin-bottom: 1rem;
-}    
-
-.history-grid-img-1,
-.history-grid-img-2,
-.history-grid-img-3 {
+.history-img {
     width: 77.5%;
     border-radius: 0.5rem;
-    box-shadow: 5px 5px 5px #878E8D;
+    box-shadow: 0.5rem 0.5rem 0.5rem #878E8D;
 }
 
 /* Visitor Centre Section */
 
-#visitor-centre {
-    background-color: #009CFC;
+#visitor-centre-header {
+    color: #fff;
 }
 
-.visitor-centre-header {
-    font-family: 'Playfair Display', serif;
+#visitor-centre-subheader {
     color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 0;
-}
-
-.visitor-centre-subheader {
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    padding: 0 0 1rem;
-    font-size: 24px;
-    margin: 0;
 }
 
 .museum-grid {
@@ -172,6 +192,7 @@ div.hero-image {
     width: min(100%, 70rem);
     margin-inline: auto;
     justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -193,27 +214,26 @@ div.hero-image {
     border-color: #fff;
     border-radius: 50%;
     margin: 0 auto;
-}
-
-.museum-grid p {
-    background-color: #fff;
-    padding: 0.5rem;
-    width: 75%;
-    border-radius: 0.5rem;
-    color: #009CFC;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: left;
-}    
+} 
 
 .opening-times {
     display: flex;
     justify-content: center;
-
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    padding: 0;
+    border-style: solid;
+    border-color: #005EB8;
+    color: #009CFC;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
-.opening-times table {
+/* .opening-times table {
     border-collapse: collapse;
     background-color: #fff;
     padding: 0.25rem;
@@ -226,10 +246,10 @@ div.hero-image {
     line-height: 1.25rem;
     text-align: left;
     margin-bottom: 1rem;
-}
+} */
 
 .opening-times th, td {
-    padding: 0.5rem;
+    padding: 1rem;
     border: 1px solid #005EB8;
     text-align: center;
 }
@@ -259,7 +279,7 @@ div.hero-image {
 .cafe-menu li {
     padding: 0.5rem 0;
 }
-.cafe-opening-times {
+/* .cafe-opening-times {
     border-collapse: collapse;
     background-color: #fff;
     width: 400px;
@@ -271,13 +291,13 @@ div.hero-image {
     line-height: 1.25rem;
     text-align: center;
     margin: 1rem 0;
-}
+} */
 
-.cafe-opening-times th, td {
+/* .cafe-opening-times th, td {
     padding: 0.5rem;
     border: 1px solid #005EB8;
     text-align: center;
-}
+} */
 
 .battlefield-flex {
     display: flex;
