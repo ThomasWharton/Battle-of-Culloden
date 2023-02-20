@@ -233,21 +233,6 @@ div.hero-image {
     margin-bottom: 1rem;
 }
 
-/* .opening-times table {
-    border-collapse: collapse;
-    background-color: #fff;
-    padding: 0.25rem;
-    width: 400px;
-    border-style: solid;
-    border-color: #005EB8;
-    color: #009CFC;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: left;
-    margin-bottom: 1rem;
-} */
-
 .opening-times th, td {
     padding: 1rem;
     border: 1px solid #005EB8;
@@ -279,25 +264,6 @@ div.hero-image {
 .cafe-menu li {
     padding: 0.5rem 0;
 }
-/* .cafe-opening-times {
-    border-collapse: collapse;
-    background-color: #fff;
-    width: 400px;
-    border-style: solid;
-    border-color: #005EB8;
-    color: #009CFC;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: center;
-    margin: 1rem 0;
-} */
-
-/* .cafe-opening-times th, td {
-    padding: 0.5rem;
-    border: 1px solid #005EB8;
-    text-align: center;
-} */
 
 .battlefield-flex {
     display: flex;
@@ -311,20 +277,7 @@ div.hero-image {
     width: 80%;
     border-radius: 0.5rem;
     box-shadow: 5px 5px 5px rgb(77, 77, 77);
-}
-
-.battlefield-flex p {
-    background-color: #fff;
-    padding: 0.5rem;
-    width: 75%;
-    border-radius: 0.5rem;
-    color: #009CFC;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: left;
-    margin-bottom: 1rem;
-}   
+} 
 
 /* Contact Information Section */
 
