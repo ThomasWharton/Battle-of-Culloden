@@ -61,7 +61,6 @@ h3 {
 
 .subheading {
         font-size: 2.5rem;
-        padding: 0 0 1rem;
 }
 
 p {
@@ -74,21 +73,21 @@ p {
 }
 
 .p-blue {
-    background-color: #009CFC;
-    color: #fff;
+    background-color: var(--celestial-blue);
+    color: var(--white);
 }
 
 .p-white {
-    background-color: #fff;
-    color: #009CFC;
+    background-color: var(--white);
+    color: var(--celestial-blue);
 }
 
 table {
-    border: 0.3rem solid #005EB8;
+    border: 0.3rem solid var(--denim);
     text-align: center;
-    background-color: #fff;
-    color: #009CFC;
-    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--white);
+    color: var(--celestial-blue);
+    font-family: var(--main-font);
     letter-spacing: 0.1rem;
     line-height: 2rem;
     border-collapse: collapse;
@@ -96,7 +95,7 @@ table {
 
 th, td {
     padding: 1rem;
-    border: 0.1rem solid #005EB8;
+    border: 0.1rem solid var(--denim);
     text-align: center;
 }
 
@@ -111,8 +110,8 @@ th, td {
 /* Header */
 
 header {
-    background-color: #005EB8;
-    letter-spacing: 0.1rem;
+    background-color: var(--denim);
+    letter-spacing: 0.2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -148,14 +147,14 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--heading-font);
 }
 
 #logo {
     font-family: 'Cinzel', serif;
-    color: #fff;
+    color: var(--white);
     font-size: 2.25rem;
     padding: 1rem;
     letter-spacing: 0.2rem;
@@ -164,7 +163,6 @@ nav a {
 .toggle-nav:checked ~ nav {
     flex: 1 1 100%;
     display: block;
-    background-color: #005EB8;
     font-size: 1.25rem;
 }
 
@@ -173,18 +171,24 @@ nav a {
 }
 
 .toggle-nav-label {
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
     padding: 1rem;
+}
 
+.nav-link a:hover,
+.toggle-nav-label:hover,
+.social-networks a:hover,
+#reset:hover,
+#submit:hover {
+    color: var(--battleship-grey)
 }
 
 /* Footer */
 
 footer {
-    background-color: #005EB8;
+    background-color: var(--denim);
     display: flex;
-    color: #fff;
     flex-direction: row;
     padding: 1rem;
 }
@@ -193,16 +197,14 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .social-networks a {
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
 }
 
@@ -225,10 +227,7 @@ div.hero-image {
     display: grid;
     grid-auto-columns: 1fr;
     gap: 1rem;
-    width: min(100%, 70rem);
-    margin-inline: auto;
     justify-items: center;
-    align-items: center;
 }
 
 .history-img {
@@ -258,8 +257,7 @@ div.hero-image {
     width: 20rem;
     height: 20rem;
     padding: 0;
-    border-style: solid;
-    border-color: #fff;
+    border: 0.2rem solid var(--white);
     border-radius: 50%;
     margin: 0 auto;
 } 
@@ -277,10 +275,10 @@ div.hero-image {
 }
 
 .cafe-menu {
-    background-color: #fff;
+    background-color: var(--white);
     width: 31.5rem;
-    border: 0.3rem solid #005EB8;
-    color: #009CFC;
+    border: 0.3rem solid var(--denim);
+    color: var(--celestial-blue);
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
     text-align: center;
@@ -313,7 +311,7 @@ div.hero-image {
 .contact-grid {
     display: grid;
     grid-auto-columns: 1fr;
-    gap: 0.5rem;
+    gap: 1rem;
     justify-items: center;
 }
 
@@ -329,7 +327,7 @@ div.hero-image {
 .contact-grid iframe {
     width: 32rem;
     height: 20rem;
-    border: 3px solid #005EB8;
+    border: 0.3rem solid var(--denim);
     margin: 1rem 0;
 }
 
@@ -378,7 +376,8 @@ div.hero-image {
 
 #submit {
     background-color: #009CFC;
-    color: #fff;   
+    color: #fff;
+    padding: 1rem 0;   
 }
 
 #reset {
@@ -386,13 +385,19 @@ div.hero-image {
     color: #009CFC;  
 }
 
+#submit:active,
+#reset:active {
+    box-shadow: 0.2rem 0.2rem 0.2rem var(--battleship-grey);
+    transform: translateY(0.3rem);
+}
+
 .book-tour-form #group-size {
-    width: 8.2rem;
+    width: 9rem;
 }
 
 .book-tour-form #date {
-    width: 12.6rem;
-    font-family: var(--main-font)
+    width: 13rem;
+    font-family: var(--main-font);
 }
 
 input,
@@ -401,7 +406,7 @@ textarea {
     font-family: var(--main-font);
     color: var(--battleship-grey);
     font-weight: bold;
-    border-style: none;
+    box-sizing: border-box;
     padding: 0.5rem;
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
