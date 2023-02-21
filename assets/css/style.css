@@ -100,6 +100,14 @@ th, td {
     text-align: center;
 }
 
+.box-shadow {
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
+}
+
+.border-radius {
+    border-radius: 0.5rem;
+}
+
 /* Header */
 
 header {
@@ -243,11 +251,7 @@ div.hero-image {
     display: grid;
     grid-auto-columns: 1fr;
     gap: 1rem;
-    width: min(100%, 70rem);
-    margin-inline: auto;
     justify-items: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .museum-img {
@@ -269,7 +273,6 @@ div.hero-image {
     flex-direction: column;
     padding: 0;
     gap: 1rem;
-    justify-items: center;
     align-items: center;
 }
 
@@ -291,7 +294,6 @@ div.hero-image {
 .battlefield-flex {
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
     gap: 1rem;
 }
@@ -312,10 +314,7 @@ div.hero-image {
     display: grid;
     grid-auto-columns: 1fr;
     gap: 0.5rem;
-    width: min(100%, 70rem);
-    margin-inline: auto;
     justify-items: center;
-    align-items: center;
 }
 
 .contact-subheading {
@@ -351,17 +350,17 @@ div.hero-image {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #0076AC;
+    background-color: var(--honolulu-blue);
     gap: 1rem;
     padding: 2rem;
     width: 28rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem #878E8D;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
 }
 
 .book-tour-form label {
-    color: #fff;
+    color: var(--white);
     letter-spacing: 0.2rem;
     font-weight: 500;
 }
@@ -369,10 +368,10 @@ div.hero-image {
 .form-button {
     width: 8rem;
     align-self: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--main-font);
     text-transform: uppercase;
     font-weight: bold;
-    box-shadow: 0.25rem 0.25rem 0.25rem #878E8D;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
     padding: 1rem;
     border-radius: 0.5rem;
 }
@@ -393,14 +392,14 @@ div.hero-image {
 
 .book-tour-form #date {
     width: 12.6rem;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--main-font)
 }
 
 input,
 select,
 textarea {
-    font-family: 'Noto Sans', sans-serif;
-    color: #878E8D;
+    font-family: var(--main-font);
+    color: var(--battleship-grey);
     font-weight: bold;
     border-style: none;
     padding: 0.5rem;
