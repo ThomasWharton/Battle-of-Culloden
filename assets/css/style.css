@@ -341,9 +341,7 @@ div.hero-image {
     display: grid;
     grid-auto-columns: 1fr;
     gap: 1rem;
-    width: min(100%, 70rem);
     justify-items: center;
-    align-items: center;
 }
 
 .tour-pricing-table {
@@ -397,10 +395,6 @@ div.hero-image {
 .book-tour-form #date {
     width: 12.6rem;
     font-family: 'Noto Sans', sans-serif;
-}
-
-input {
-    text-indent: 0.3rem;
 }
 
 input,
