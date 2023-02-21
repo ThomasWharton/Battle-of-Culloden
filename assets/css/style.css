@@ -14,8 +14,8 @@ html {
 }
 
 body {
-    margin: 0;
     font-size: 1.6rem;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .section-white {
@@ -34,7 +34,6 @@ body {
     letter-spacing: 0.2rem;
     font-size: 3rem;
     padding: 1rem;
-    margin: 0;
 }
 
 .section-subheader {
@@ -44,12 +43,10 @@ body {
         letter-spacing: 0.2rem;
         font-size: 2.5rem;
         padding: 0 0 1rem;
-        margin: 0;
 }
 
 p {
     letter-spacing: 0.1rem;
-    font-family: 'Noto Sans', sans-serif;
     line-height: 2rem;
     text-align: left;
     padding: 0.5rem;
@@ -65,6 +62,23 @@ p {
 .p-white {
     background-color: #fff;
     color: #009CFC;
+}
+
+table {
+    border: 0.3rem solid #005EB8;
+    text-align: center;
+    background-color: #fff;
+    color: #009CFC;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    border: 0.1rem solid #005EB8;
+    text-align: center;
 }
 
 /* Header */
@@ -240,25 +254,7 @@ div.hero-image {
 } 
 
 .opening-times {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    border-collapse: collapse;
-    background-color: #fff;
-    padding: 0;
-    border: 0.3rem solid #005EB8;
-    color: #009CFC;
-    font-family: 'Noto Sans', sans-serif;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    text-align: left;
-    margin-bottom: 1rem;
-}
-
-.opening-times th, td {
-    padding: 1rem;
-    border: 0.1rem solid #005EB8;
-    text-align: center;
+    width: 32rem;
 }
 
 .cafe-flex {
@@ -272,16 +268,13 @@ div.hero-image {
 
 .cafe-menu {
     background-color: #fff;
-    width: 78%;
-    border: 0.4rem solid #005EB8;
+    width: 31.5rem;
+    border: 0.3rem solid #005EB8;
     color: #009CFC;
     letter-spacing: 0.1rem;
-    font-family: 'Noto Sans', sans-serif;
     line-height: 1.5rem;
     text-align: center;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .cafe-menu li {
@@ -324,16 +317,17 @@ div.hero-image {
 
 .contact-subheader {
     color: #009CFC;
+    font-size: 2rem;
 }
 
 .contact-p {
-    width: 75%;
+    width: 27rem;
     text-align: center;
 }
 
 .contact-grid iframe {
-    width: 95%;
-    height: 200px;
+    width: 32rem;
+    height: 20rem;
     border: 3px solid #005EB8;
     margin: 1rem 0;
 }
@@ -346,31 +340,14 @@ div.hero-image {
 .tour-grid {
     display: grid;
     grid-auto-columns: 1fr;
-    gap: 0.25rem;
+    gap: 1rem;
     width: min(100%, 70rem);
-    margin-inline: auto;
     justify-items: center;
     align-items: center;
 }
 
 .tour-pricing-table {
-    border-collapse: collapse;
-    background-color: #fff;
-    width: 25rem;
-    border-style: solid;
-    border-color: #005EB8;
-    color: #009CFC;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.25rem;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.tour-pricing-table th, td {
-    padding: 0.5rem;
-    border: 1px solid #005EB8;
-    text-align: center;
+   width: 17.5rem;
 }
 
 .book-tour-form {
@@ -380,7 +357,7 @@ div.hero-image {
     background-color: #0076AC;
     gap: 1rem;
     padding: 2rem;
-    width: 80%;
+    width: 28rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
     box-shadow: 0.5rem 0.5rem 0.5rem #878E8D;
@@ -388,21 +365,55 @@ div.hero-image {
 
 .book-tour-form label {
     color: #fff;
-    font-family: 'Noto Sans', sans-serif;
     letter-spacing: 0.2rem;
     font-weight: 500;
 }
 
-.book-tour-form .form-button {
-    width: 40%;
+.form-button {
+    width: 8rem;
+    align-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0.25rem 0.25rem 0.25rem #878E8D;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#submit {
+    background-color: #009CFC;
+    color: #fff;   
+}
+
+#reset {
+    background-color: #fff;
+    color: #009CFC;  
 }
 
 .book-tour-form #group-size {
-    width: 22%;
-    font-family: 'Noto Sans', sans-serif;
+    width: 8.2rem;
 }
 
 .book-tour-form #date {
-    width: 35%;
+    width: 12.6rem;
     font-family: 'Noto Sans', sans-serif;
+}
+
+input,
+select,
+textarea {
+    font-family: 'Noto Sans', sans-serif;
+    color: #878E8D;
+    font-weight: bold;
+    border-style: none;
+    text-indent: 0.3rem;
+    padding: 0.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+}
+
+textarea::placeholder {
+    text-indent: 0;
+    padding: 0 0.3rem;
+    opacity: 0.5;
 }
