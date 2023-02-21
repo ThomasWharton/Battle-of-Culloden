@@ -340,11 +340,11 @@ div.hero-image {
     justify-items: center;
 }
 
-.tour-pricing-table {
+#tour-pricing-table {
    width: 17.5rem;
 }
 
-.book-tour-form {
+#book-tour-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -357,7 +357,7 @@ div.hero-image {
     box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
 }
 
-.book-tour-form label {
+#book-tour-form label {
     color: var(--white);
     letter-spacing: 0.2rem;
     font-weight: 500;
@@ -372,6 +372,7 @@ div.hero-image {
     box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
     padding: 1rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 #submit {
@@ -385,12 +386,15 @@ div.hero-image {
     color: #009CFC;  
 }
 
-#submit:active,
-#reset:active {
-    box-shadow: 0.2rem 0.2rem 0.2rem var(--battleship-grey);
+#submit:active {
+    box-shadow: 0.2rem 0.2rem 0.2rem var(--white);
     transform: translateY(0.3rem);
 }
 
+#reset:active {
+    box-shadow: 0.2rem 0.2rem 0.2rem var(--celestial-blue);
+    transform: translateY(0.3rem);
+}
 .book-tour-form #group-size {
     width: 9rem;
 }
@@ -416,4 +420,44 @@ textarea::placeholder {
     text-indent: 0;
     padding: 0 0.3rem;
     opacity: 0.5;
+}
+
+/* Thank You Page */
+
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--denim);
+    text-align: center;
+}
+
+.thank-you-page h1 {
+    font-family: 'Cinzel', serif;
+    color: var(--white);
+    font-size: 5rem;
+    letter-spacing: 0.2rem; 
+}
+
+.thank-you-page p {
+    font-family: var(--main-font);
+    color: var(--white);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.thank-you-page a {
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--celestial-blue);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.thank-you-page a:hover {
+    color: var(--battleship-grey);
 }
