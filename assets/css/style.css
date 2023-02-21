@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Noto+Sans&family=Playfair+Display&display=swap');
 
 /* Global Styling */
+
+:root {
+    --denim: #005EB8;
+    --celestial-blue: #009CFC;
+    --honolulu-blue: #0076AC;
+    --battleship-grey: #878E8D;
+    --white: #fff;
+    --main-font: 'Noto Sans', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,32 +27,39 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--main-font);
 }
 
 .section-white {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .section-blue {
-    background-color: #009CFC;
+    background-color: var(--celestial-blue);
 }
 
-.section-header {
-    font-family: 'Playfair Display', serif;
-    color: #009CFC;
+h2,
+h3 {
+    font-family: var(--heading-font);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    font-size: 3rem;
     padding: 1rem;
 }
 
-.section-subheader {
-        font-family: 'Playfair Display', serif;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
+.heading-white {
+    color: var(--white)
+}
+
+.heading-blue {
+    color: var(--celestial-blue);
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.subheading {
         font-size: 2.5rem;
         padding: 0 0 1rem;
 }
@@ -167,8 +186,8 @@ footer {
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-evenly;
+    justify-content: center;
+    align-content: space-between;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -194,10 +213,6 @@ div.hero-image {
 
 /* History Section */
 
-#history-header {
-    color: #009CFC;
-}
-
 .history-grid {
     display: grid;
     grid-auto-columns: 1fr;
@@ -222,14 +237,6 @@ div.hero-image {
 
 #visitor-centre {
     margin-bottom: 0;
-}
-
-#visitor-centre-header {
-    color: #fff;
-}
-
-#visitor-centre-subheader {
-    color: #fff;
 }
 
 .museum-grid {
@@ -301,10 +308,6 @@ div.hero-image {
 
 /* Contact Information Section */
 
-#contact-header {
-    color: #009CFC;
-}
-
 .contact-grid {
     display: grid;
     grid-auto-columns: 1fr;
@@ -315,8 +318,7 @@ div.hero-image {
     align-items: center;
 }
 
-.contact-subheader {
-    color: #009CFC;
+.contact-subheading {
     font-size: 2rem;
 }
 
@@ -333,9 +335,6 @@ div.hero-image {
 }
 
 /* Tour section */
-#tour-header {
-    color: #fff;
-}
 
 .tour-grid {
     display: grid;
