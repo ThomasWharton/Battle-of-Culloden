@@ -161,7 +161,7 @@ nav a {
 #logo {
     font-family: 'Cinzel', serif;
     color: var(--white);
-    font-size: 2.25rem;
+    font-size: 2.3rem;
     padding: 1rem;
     letter-spacing: 0.2rem;
 }
@@ -177,7 +177,7 @@ nav a {
 
 .toggle-nav-label {
     color: var(--white);
-    font-size: 2rem;
+    font-size: 2.3rem;
     padding: 1rem;
 }
 
@@ -337,7 +337,7 @@ div.hero-image {
 }
 
 #tour-pricing-table {
-   width: 17.5rem;
+   width: 25rem;
 }
 
 #book-tour-form {
@@ -466,4 +466,82 @@ textarea:focus {
 
 .thank-you-page a:hover {
     color: var(--battleship-grey);
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+
+    #logo,
+    .toggle-nav-label {
+        font-size: 3rem;
+    }
+
+    #book-tour-form {
+        width: 42rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .museum-grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    #museum-p-start {
+        grid-column: 2;
+        grid-row: 1;   
+    }
+
+    #museum-p-end {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #blunderbuss {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #museum-opening-times {
+        grid-column: span 2;
+    }
+
+    .cafe-flex {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .address {
+        align-self: center;
+    }
+
+    .map {
+        grid-column: span 2;
+    }
+
+    .contact-grid iframe {
+        width: 70rem;
+    }
+
+    .tour-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tour-p {
+        align-self: center;
+    }
+
+    #tour-pricing-table {
+        grid-column: 2;
+    }
+
+    .book-tour-form {
+        grid-column: span 2;
+    }
 }

@@ -78,12 +78,12 @@
           <h3 class="subheading heading-white">Museum</h3>
           <div class="museum-grid">
             <img id="brodie-sword" class="museum-img" src="assets/images/brodiesword.jpg" alt="Image of Brodie Sword">
-            <p class="background-white box-radius">The Culloden museum is home to many artifacts surrounding the Jacobite uprising of 1745. 
+            <p id="museum-p-start" class="background-white box-radius">The Culloden museum is home to many artifacts surrounding the Jacobite uprising of 1745. 
               Extend your knowledge further with the plentiful information on display in our museum.</p>
             <img id="blunderbuss" class="museum-img" src="assets/images/blunderbuss.jpg" alt="Image of Blunderbuss firearm">
-            <p class="background-white box-radius">Take a journey through history, seen through both the Jacobite and goverment sides of the saga. 
+            <p id="museum-p-end" class="background-white box-radius">Take a journey through history, seen through both the Jacobite and goverment sides of the saga. 
               Many of our artifacts were found right here on the Battlefield and help paint a clearer picture of the final confrontation.</p>
-            <table class="opening-times">
+            <table id="museum-opening-times" class="opening-times">
                  <tr class="background-white">
                     <th></th>
                     <th><strong>Opening</strong></th>
@@ -158,21 +158,27 @@
     <section id="contact" class="section-white">     
      <h2 class="heading heading-blue">Contact information</h2>
      <div class="contact-grid">
-      <h3 class="heading-blue contact-subheading">Telephone Number</h3>
-      <p class="background-blue contact-p box-radius">01234556789</p>
-      <h3 class="heading-blue contact-subheading">Email Address</h3>
-      <p class="background-blue contact-p box-radius">BattleofCulloden@gmail.com</p>
-      <h3 class="heading-blue contact-subheading">Address</h3>
-      <p class="background-blue contact-p box-radius">Culloden Battlefield<br>Inverness<br>IV2 5EU</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2145.0318956536094!2d-4.097899683902094!3d57.47779266510452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f7a1afe782713%3A0xd87d3475f1f54627!2sCulloden%20Battlefield!5e0!3m2!1sen!2suk!4v1676309873100!5m2!1sen!2suk">
-      </iframe>
+      <div class="number-and-email">
+       <h3 class="heading-blue contact-subheading">Telephone Number</h3>
+       <p class="background-blue contact-p box-radius">01234556789</p>
+       <h3 class="heading-blue contact-subheading">Email Address</h3>
+       <p class="background-blue contact-p box-radius">BattleofCulloden@gmail.com</p>
+      </div>
+      <div class="address">
+       <h3 class="heading-blue contact-subheading">Address</h3>
+       <p class="background-blue contact-p box-radius">Culloden Battlefield<br>Inverness<br>IV2 5EU</p>
+      </div>
+      <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2145.0318956536094!2d-4.097899683902094!3d57.47779266510452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f7a1afe782713%3A0xd87d3475f1f54627!2sCulloden%20Battlefield!5e0!3m2!1sen!2suk!4v1676309873100!5m2!1sen!2suk">
+       </iframe>
+      </div>
      </div>
     </section>
 
     <section id="tours" class="section-blue">
       <h2 class="heading-white heading">Book a Tour!</h2>
        <div class="tour-grid">
-        <p class="background-white border-radius">Why not book a tour with us and be treated to an entertaining and fascinating experience!
+        <p id="tour-p" class="background-white border-radius">Why not book a tour with us and be treated to an entertaining and fascinating experience!
            Tours are scheduled once every hour and can be pre-booked for small to large group sizes.
         </p>
         <table id="tour-pricing-table">
