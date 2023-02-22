@@ -10,7 +10,6 @@
     --white: #fff;
     --main-font: 'Noto Sans', sans-serif;
     --heading-font: 'Playfair Display', serif;
-
 }
 
 * {
@@ -72,12 +71,12 @@ p {
     border-radius: 0.5rem;
 }
 
-.p-blue {
+.background-blue {
     background-color: var(--celestial-blue);
     color: var(--white);
 }
 
-.p-white {
+.background-white {
     background-color: var(--white);
     color: var(--celestial-blue);
 }
@@ -85,8 +84,6 @@ p {
 table {
     border: 0.3rem solid var(--denim);
     text-align: center;
-    background-color: var(--white);
-    color: var(--celestial-blue);
     font-family: var(--main-font);
     letter-spacing: 0.1rem;
     line-height: 2rem;
@@ -105,6 +102,14 @@ th, td {
 
 .border-radius {
     border-radius: 0.5rem;
+}
+
+.nav-link a:hover,
+.toggle-nav-label:hover,
+.social-networks a:hover,
+#reset:hover,
+#submit:hover {
+    color: var(--battleship-grey)
 }
 
 /* Header */
@@ -140,6 +145,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    font-size: 1.6rem;
 }
 
 nav li {
@@ -163,7 +169,6 @@ nav a {
 .toggle-nav:checked ~ nav {
     flex: 1 1 100%;
     display: block;
-    font-size: 1.25rem;
 }
 
 .toggle-nav {
@@ -174,14 +179,6 @@ nav a {
     color: var(--white);
     font-size: 2rem;
     padding: 1rem;
-}
-
-.nav-link a:hover,
-.toggle-nav-label:hover,
-.social-networks a:hover,
-#reset:hover,
-#submit:hover {
-    color: var(--battleship-grey)
 }
 
 /* Footer */
@@ -278,7 +275,6 @@ div.hero-image {
     background-color: var(--white);
     width: 31.5rem;
     border: 0.3rem solid var(--denim);
-    color: var(--celestial-blue);
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
     text-align: center;
@@ -376,14 +372,14 @@ div.hero-image {
 }
 
 #submit {
-    background-color: #009CFC;
-    color: #fff;
+    background-color: var(--celestial-blue);
+    color: var(--white);
     padding: 1rem 0;   
 }
 
 #reset {
-    background-color: #fff;
-    color: #009CFC;  
+    background-color: var(--white);
+    color: var(--celestial-blue);  
 }
 
 #submit:active {
@@ -425,6 +421,11 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: 0.2rem solid var(--battleship-grey);
+}
+
+#submit:focus,
+#reset:focus {
+    outline: 0;
 }
 
 /* Thank You Page */
