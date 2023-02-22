@@ -481,12 +481,16 @@ textarea:focus {
         font-size: 3rem;
     }
 
-    #book-tour-form {
-        width: 42rem;
+    div.hero-image {
+        height: 45vh;
     }
 
     .history-img {
         width: 60vw;
+    }
+
+    #book-tour-form {
+        width: 42rem;
     }
 
     .social-networks a {
@@ -497,6 +501,10 @@ textarea:focus {
 /* Medium Screen Size */
 
 @media (min-width: 768px) {
+
+    div.hero-image {
+        height: 55vh;
+    }
 
     .history-img {
         width: 50vw;
@@ -589,6 +597,10 @@ textarea:focus {
 
     .toggle-nav-label {
         display: none;
+    }
+
+    div.hero-image {
+        height: 65vh;
     }
 
     .history-img {
