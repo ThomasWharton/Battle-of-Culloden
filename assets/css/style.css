@@ -421,6 +421,11 @@ textarea::placeholder {
     padding: 0 0.3rem;
     opacity: 0.5;
 }
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0.2rem solid var(--battleship-grey);
+}
 
 /* Thank You Page */
 
