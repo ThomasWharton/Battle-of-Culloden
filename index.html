@@ -207,11 +207,14 @@
           <label for="email" class="form-left">Email Address</label>
           <input type="email" id="email" class="form-left" name="email-address" required>       
           <label for="group-size" class="form-left">Group Size</label>
-          <select id="group-size" class="form-left" name="group-size" required>
-            <option value="1-4">1 - 4</option>
-            <option value="5-10">5 - 10</option>
-            <option value="11-20">11 - 20</option>
-          </select>
+          <input type="number" 
+                 id="group-size" 
+                 class="form-left" 
+                 name="group-size" 
+                 min="1" 
+                 max="20" 
+                 value="1" 
+                 required>
           <label for="date" class="form-left">Date</label>
           <input type="date" 
                  id="date" 

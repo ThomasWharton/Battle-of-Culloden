@@ -225,6 +225,7 @@ div.hero-image {
     grid-auto-columns: 1fr;
     gap: 1rem;
     justify-items: center;
+    margin-bottom: 1rem;
 }
 
 .history-img {
@@ -393,17 +394,16 @@ div.hero-image {
     box-shadow: 0.2rem 0.2rem 0.2rem var(--celestial-blue);
     transform: translateY(0.3rem);
 }
-.book-tour-form #group-size {
-    width: 9rem;
+#group-size {
+    width: 5rem;
 }
 
-.book-tour-form #date {
+#date {
     width: 13rem;
     font-family: var(--main-font);
 }
 
 input,
-select,
 textarea {
     font-family: var(--main-font);
     color: var(--battleship-grey);
@@ -420,7 +420,6 @@ textarea::placeholder {
     opacity: 0.5;
 }
 input:focus,
-select:focus,
 textarea:focus {
     outline: 0.2rem solid var(--battleship-grey);
 }
@@ -476,6 +475,14 @@ textarea:focus {
 
 @media (min-width: 576px) {
 
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .subheading {
+        font-size: 2.5rem;
+    }
+
     #logo,
     .toggle-nav-label {
         font-size: 3rem;
@@ -501,6 +508,14 @@ textarea:focus {
 /* Medium Screen Size */
 
 @media (min-width: 768px) {
+    
+    .heading {
+        font-size: 4rem;
+    }
+
+    .subheading {
+        font-size: 3rem;
+    }
 
     div.hero-image {
         height: 55vh;
@@ -576,6 +591,19 @@ textarea:focus {
 
 @media (min-width: 992px) {
 
+    p {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    
+    .heading {
+        font-size: 4.5rem;
+    }
+
+    .subheading {
+        font-size: 3.5rem;
+    }
+
     nav {
         display: block;
     }
@@ -620,7 +648,7 @@ textarea:focus {
     }
 
     #history-img-middle {
-        grid: column 2;
+        grid-column: 2;
     }
 
     .museum-grid {
