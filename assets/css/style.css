@@ -327,6 +327,10 @@ div.hero-image {
     margin: 1rem 0;
 }
 
+.address h3 {
+    padding-top: 0;
+}
+
 /* Tour section */
 
 .tour-grid {
@@ -699,10 +703,6 @@ textarea:focus {
         align-self: auto;
         grid-column: 1;
         grid-row: 2;
-    }
-
-    .address h3 {
-        padding-top: 0;
     }
 
     .map {
