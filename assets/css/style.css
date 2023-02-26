@@ -4,8 +4,8 @@
 
 :root {
     --denim: #005EB8;
-    --honolulu-blue: #009CFC;
-    --celestial-blue: #0076AC;
+    --celestial-blue: #009CFC;
+    --honolulu-blue: #0076AC;
     --battleship-grey: #878E8D;
     --white: #fff;
     --main-font: 'Noto Sans', sans-serif;
@@ -34,7 +34,7 @@ body {
 }
 
 .section-blue {
-    background-color: var(--celestial-blue);
+    background-color: var(--honolulu-blue);
 }
 
 h2,
@@ -51,7 +51,7 @@ h3 {
 }
 
 .heading-blue {
-    color: var(--celestial-blue);
+    color: var(--honolulu-blue);
 }
 
 .heading {
@@ -72,17 +72,17 @@ p {
 }
 
 .background-blue {
-    background-color: var(--celestial-blue);
+    background-color: var(--honolulu-blue);
     color: var(--white);
 }
 
 .background-white {
     background-color: var(--white);
-    color: var(--celestial-blue);
+    color: var(--honolulu-blue);
 }
 
 table {
-    border: 0.3rem solid var(--denim);
+    border: 0.3rem solid var(--celestial-blue);
     text-align: center;
     font-family: var(--main-font);
     letter-spacing: 0.1rem;
@@ -92,7 +92,7 @@ table {
 
 th, td {
     padding: 1rem;
-    border: 0.1rem solid var(--denim);
+    border: 0.1rem solid var(--battleship-grey);
     text-align: center;
 }
 
@@ -276,7 +276,7 @@ div.hero-image {
 .cafe-menu {
     background-color: var(--white);
     width: 31.5rem;
-    border: 0.3rem solid var(--denim);
+    border: 0.3rem solid var(--celestial-blue);
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
     text-align: center;
@@ -323,7 +323,7 @@ div.hero-image {
 .contact-grid iframe {
     width: 32rem;
     height: 20rem;
-    border: 0.3rem solid var(--denim);
+    border: 0.3rem solid var(--celestial-blue);
     margin: 1rem 0;
 }
 
@@ -348,7 +348,7 @@ div.hero-image {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--honolulu-blue);
+    background-color: var(--denim);
     gap: 1rem;
     padding: 2rem;
     width: 28rem;
@@ -376,14 +376,14 @@ div.hero-image {
 }
 
 #submit {
-    background-color: var(--celestial-blue);
+    background-color: var(--honolulu-blue);
     color: var(--white);
     padding: 1rem 0;   
 }
 
 #reset {
     background-color: var(--white);
-    color: var(--celestial-blue);  
+    color: var(--honolulu-blue);  
 }
 
 #submit:active {
@@ -392,7 +392,7 @@ div.hero-image {
 }
 
 #reset:active {
-    box-shadow: 0.2rem 0.2rem 0.2rem var(--celestial-blue);
+    box-shadow: 0.2rem 0.2rem 0.2rem var(--honolulu-blue);
     transform: translateY(0.3rem);
 }
 #group-size {
@@ -413,6 +413,7 @@ textarea {
     padding: 0.5rem;
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
+    border-radius: 0.5rem;
 }
 
 textarea::placeholder {
@@ -461,7 +462,7 @@ textarea:focus {
 .thank-you-page a {
     text-decoration: none;
     font-family: var(--main-font);
-    color: var(--celestial-blue);
+    color: var(--honolulu-blue);
     font-size: 3rem;
     text-transform: uppercase;
 }
