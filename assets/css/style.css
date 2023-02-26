@@ -24,6 +24,8 @@ html {
     scroll-padding-top: 5rem;
 }
 
+/* Main Styling */
+
 body {
     font-size: 1.6rem;
     font-family: var(--main-font);
@@ -161,7 +163,7 @@ nav a {
 #logo {
     font-family: 'Cinzel', serif;
     color: var(--white);
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     padding: 1rem;
     letter-spacing: 0.2rem;
 }
@@ -466,7 +468,7 @@ textarea:focus {
 .thank-you-page a {
     text-decoration: none;
     font-family: var(--main-font);
-    color: var(--honolulu-blue);
+    color: var(--celestial-blue);
     font-size: 3rem;
     text-transform: uppercase;
 }
