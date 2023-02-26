@@ -85,7 +85,7 @@ The site will be built with mobile first mindset with the Samsung Galaxy S8+ (36
 
 ## Wireframes
 
-Wireframes have been developed to give a general structure and layout to the site on various device sizes. The wireframes were created using [Balsamic](https://balsamiq.com. "Balsamic"). The first wireframe was created with mobile screen size in mind and scaled up to tablet and desktop sizes. A one-page website is used to allow the user to quickly access all content available. This is especially true for mobile users who will be scrolling down continuously, rather than navigating through different pages. 
+Wireframes have been developed to give a general structure and layout to the site on various device sizes. The wireframes were created using [Balsamic](https://balsamiq.com "Balsamic"). The first wireframe was created with mobile screen size in mind and scaled up to tablet and desktop sizes. A one-page website is used to allow the user to quickly access all content available. This is especially true for mobile users who will be scrolling down continuously, rather than navigating through different pages. 
 
 The wireframes are linked below:
 
@@ -102,21 +102,21 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 * Desktop (>= 992px)
     * The navbar spans the entire width of the device and is complete with all links to direct to the different sections of the site. This allows for easy and clear access to all content for the user.
 
-    *Navbar large*
-    ![Navbar Desktop](readme_images/navbar_large.png)
+*Navbar large*
+![Navbar Desktop](readme_images/navbar_large.png)
 
     * The links will change colour when hovered over for better visibility for the user.
 
-    *Navbar hover* <br>
-    ![Navbar Hover Effect](readme_images/nav_hover.png)
+*Navbar hover* <br>
+![Navbar Hover Effect](readme_images/nav_hover.png)
 
 * Small devices (<992px)
     * As the screen size decreases, the navigation menu becomes too long to fit into the navbar and remain aesthetically pleasing. Therefore on devices with a screen size of 992px or less, the navigation menu will be toggled on and off via a hamburger icon. When checked, the navigation menu will appear as a dropdown list.
 
-*Navbar Small* <br>
+*Navbar Small*<br>
 ![Navbar Small](readme_images/navbar_small.png)
 
-*Navbar dropdown* <br>
+*Navbar dropdown*<br>
 ![Navbar Dropdown](readme_images/nav_dropdown.png)
 
 ### Home Section
@@ -147,10 +147,10 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 *Desktop*
 ![Museum Desktop](readme_images/museum_large.png)
 
-*Tablet*
+*Tablet*<br>
 ![Museum Tablet](readme_images/museum_medium.png)
 
-*Mobile* <br>
+*Mobile*<br>
 ![Museum Mobile](readme_images/museum_small.png)
 
 * Cafe Subsection
@@ -159,10 +159,10 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 *Desktop*
 ![Cafe Desktop](readme_images/cafe_large.png)
 
-*Tablet*
+*Tablet*<br>
 ![Cafe Tablet](readme_images/cafe_medium.png)
 
-*Mobile* <br>
+*Mobile*<br>
 ![Cafe Mobile](readme_images/cafe_small.png)
 
 
@@ -184,19 +184,19 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 *Desktop*
 ![Contact Desktop](readme_images/contact_large.png)
 
-*Tablet*
+*Tablet*<br>
 ![Contact Tablet](readme_images/contact_medium.png)
 
-*Mobile* <br>
+*Mobile*<br>
 ![Contact Mobile](readme_images/contact_small.png)
 
 ### Book a Tour Section
 * The book a tour section includes information on the tours, such as how often they take place and pricing information for different group sizes.
 
-*Tablet*
+*Tablet*<br>
 ![Tour Tablet](readme_images/tour_medium.png)
 
-*Mobile* <br>
+*Mobile*<br>
 ![Tour Mobile](readme_images/tour_small.png)
 
 * There is also a booking form where the user can give information such as their name, email address, telephone number, group size, date of tour and special requirements.
@@ -204,7 +204,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 *Desktop*
 ![Tour Section Large](readme_images/tour_large.png)
 
-*Form on smaller screen* <br>
+*Form on smaller screen*<br>
 ![Form Small](readme_images/form_small.png)
 
 * Upon successful submission of the form, the user will be brought to a thank you page, confirming successful booking of a tour. The thank you page will include a link to navigate back to the main page.
@@ -233,3 +233,19 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+### Libraries & Framework
+
+* [Google Fonts](https://fonts.google.com "Google Fonts")
+* [Font Awesome](https://fontawesome.com "Font Awesome")
+
+### Tools
+
+* [Github](https://github.com "Github")
+* [Gitpod](https://gitpod.io "Gitpod")
+* [Balsamic](https://balsamiq.com "Balsamic")
+* [Bootstrap](https://getbootstrap.com "Bootstrap")
+* [Coolors](http://coolors.co "Coolors")
+* [DevTools](https://developer.chrome.com/docs/devtools "DevTools")
+
+
