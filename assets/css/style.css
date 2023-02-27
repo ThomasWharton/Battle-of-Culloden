@@ -683,7 +683,7 @@ textarea:focus {
     }
 
     .cafe-flex {
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .cafe-menu li {
