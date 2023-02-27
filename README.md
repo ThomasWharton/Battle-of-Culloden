@@ -248,5 +248,50 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
 * [Coolors](http://coolors.co "Coolors")
 * [DevTools](https://developer.chrome.com/docs/devtools "DevTools")
+* [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation")
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation")
+* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/ "WAVE Web Accessibility Evaluation Tool")
+
+## Testing
+
+Testing has been carried out extensively throughout the building process to ensure all features work as intended. Features have been tested on multiple platforms and the site is full responsive to different screen sizes. All of the navigation links work correctly, the booking form submits when successfully when all necessary fields are filled in properly and links to a thank you page. The social media links in the footer all successfully navigate to the correct pages in another tab.
+
+### Validator Testing
+
+The HTML and CSS code have been validated using [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation") and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation"). All code has validated successfully without errors.
+
+*HTML Validation*<br>
+![HTML Validation](readme_images/w3c_html.png)
+
+*CSS Validation*<br>
+![CSS Validation](readme_images/w3c_css.png)
+
+### Wave Testing
+
+Testing has been completed using [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/ "WAVE Web Accessibility Evaluation Tool") to ensure the site is fully accessible to those with impairments. The tests completed with minimal errors and those that do remain are intended, therefore will not be rectified. 
+
+*Wave Test Results*<br>
+![Wave Test Results](readme_images/wave_report.png)
+
+*Wave Errors*<br>
+![Wave Errors](readme_images/wave_errors.png)
+
+* The empty form label error refers to the label used for the hamburger icon for the navigation menu on smaller screen sizes. This is hidden on larger screen sizes due to style changes and therefore will remain this way.
+
+* The two empty table headers errors refer to the opening/closing times tables and are intended to be blank. The column is for the day of the week which is self explanatory and therefore does not need a heading. 
+
+### Lighthouse Testing
+
+The lighthouse function within devtools has been used to test the site for mobile and desktop. The site scores well across the board with room for some minor improvements. As these are minor and the site performs well, these are not deemed necessary to resolve. The lighthouse function proved useful in optimising the site with regards to reformating images and for optimising accessibility.
+
+*Desktop Lighthouse Results*<br>
+![Desktop Lighthouse Results](readme_images/lighthouse_desktop.png)
+
+*Mobile Lighthouse Results*<br>
+![Mobile Lighthouse Results](readme_images/lighthouse_mobile.png)
+
+The site scores full marks for accessibility and search engine optimisation with some small improvements to be made with performance and best practices. It is also worth noting that the site performs slightly better on desktop than on mobile. This is in regards to rendering the images used on the site.
+
+## Deployment
 
 
