@@ -242,7 +242,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 ### Tools
 
-* [Github](https://github.com "Github")
+* [GitHub](https://github.com "GitHub")
 * [Gitpod](https://gitpod.io "Gitpod")
 * [Balsamic](https://balsamiq.com "Balsamic")
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
@@ -294,4 +294,17 @@ The site scores full marks for accessibility and search engine optimisation with
 
 ## Deployment
 
+The site was deployed using GitHub. The steps for deployment are as follows:
 
+1. Navigate to repository for GitHub project.
+2. Navigate to settings tab.
+3. Navigate to page settings under "Code and automation".
+4. Under "Build and deployment" select "Deploy from branch" as source.
+5. Ensure the main branch is selected and click save.
+6. After these steps have been completed, the page should go live within a few minutes.
+
+[View live project here](https://thomaswharton.github.io/Battle-of-Culloden/)
+
+## Credits
+
+I would like to thank my mentor Simen Daehlin for all his advice. For helping me with how to start/structure my project, optimise my code and for the encouragement to give me confidence in my abilities. 
