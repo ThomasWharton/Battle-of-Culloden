@@ -15,7 +15,7 @@ This site is aimed at tourists of Scotland looking to plan a day out with the ab
 * Easy to navigate.
 * Quality and necessary content.
 * Asthetically pleasing with relevant images.
-* Easy to find contant information.
+* Easy to find contact information.
 * Booking form for guided tours.
 
 ### User Stories
@@ -105,7 +105,8 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 *Navbar large*
 ![Navbar Desktop](readme_images/navbar_large.png)
 
-    * The links will change colour when hovered over for better visibility for the user.
+    
+* The links will change colour when hovered over for better visibility for the user.
 
 *Navbar hover* <br>
 ![Navbar Hover Effect](readme_images/nav_hover.png)
@@ -142,7 +143,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 * Museum Subsection
     * The museum subsection has some information on what users will hope to find in the museum with a couple of images of sample artifacts.
-    * The user will also be given information regarding the opening and closing times of the museum.
+    * The user will also be given information regarding the opening/closing times of the museum.
      
 *Desktop*
 ![Museum Desktop](readme_images/museum_large.png)
@@ -168,7 +169,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 * Battlefield Subsection
     * The battlefield subsection features an image of Leanach cottage which is situated on the battlefield. This image gives the user an idea of the beauty to be found whilst exploring the battlefield.
-    * The image is accompanied by some text describing the battlefield and other landmarks found on the battlefield.
+    * The image is accompanied by some text describing the battlefield and other landmarks to be found.
 
 *Large Screen Size*
 ![Battlefield Large](readme_images/battlefield_large.png)
