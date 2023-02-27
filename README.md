@@ -254,7 +254,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 ## Testing
 
-Testing has been carried out extensively throughout the building process to ensure all features work as intended. Features have been tested on multiple platforms and the site is full responsive to different screen sizes. All of the navigation links work correctly, the booking form submits when successfully when all necessary fields are filled in properly and links to a thank you page. The social media links in the footer all successfully navigate to the correct pages in another tab.
+Testing has been carried out extensively throughout the building process to ensure all features work as intended. Features have been tested on multiple platforms and the site is fully responsive on different screen sizes. All of the navigation links work correctly. The booking form submits successfully when all necessary fields are filled in and links to a thank you page. The social media links in the footer all successfully navigate to the correct pages in another tab.
 
 ### Validator Testing
 
