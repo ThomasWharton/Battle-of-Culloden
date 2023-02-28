@@ -66,8 +66,8 @@ The colours and their uses are listed below.
 ![Colour Palette](readme_images/colour_scheme.png)
 
 * #005EB8 - This colour will be used for the header, footer and form elements. 
-* #0076AC - This colour will be used as a background colour for sections and elements, as well as for text.
 * #009CFC - This colour will be used for the table and list borders.
+* #0076AC - This colour will be used as a background colour for sections and elements, as well as for text.
 * #878E8D - This colour will be used for box shadows and a small amount of text.
 * #FFFFFF - This colour will be used as a background colour for sections and elements, as well as for text.
 
