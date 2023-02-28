@@ -139,7 +139,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 ### Visitor Centre Section
 
-* The visitor centre section has 3 subsections. The subsections are for the museum, the cafe and the battlefield.
+* The visitor centre section has 3 subsections. The subsections are for the museum, cafe and battlefield.
 
 * Museum Subsection
     * The museum subsection has some information on what users will hope to find in the museum with a couple of images of sample artifacts.
@@ -179,7 +179,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 
 ### Contact Information Section
 
-* The contact information section contains the telephone number, email address and address of the visitor centre.
+* The contact information section contains the telephone number, email and postal address of the visitor centre.
 * A google maps preview is embedded in this section with the ability to open up google maps in another tab. This allows users to easily plan travel to the visitor centre. 
 
 *Desktop*
