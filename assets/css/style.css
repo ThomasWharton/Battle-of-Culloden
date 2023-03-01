@@ -506,7 +506,7 @@ textarea:focus {
     .toggle-nav-label {
         font-size: 3rem;
     }
-
+    
     #home {
         height: 45vh;
     }
@@ -519,7 +519,7 @@ textarea:focus {
         width: 42rem;
     }
 
-    .social-networks a {
+    .social-networks-a {
         font-size: 3.5rem;
     }
 }
