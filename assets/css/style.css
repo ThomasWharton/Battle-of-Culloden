@@ -145,6 +145,10 @@ nav {
     margin: 0;
 }
 
+.sr-only {
+    visibility: hidden;
+}
+
 .nav-menu {
     list-style: none;
     padding: 0;
