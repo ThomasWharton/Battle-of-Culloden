@@ -310,9 +310,14 @@ Testing has been completed using [WAVE Web Accessibility Evaluation Tool](https:
 *Wave Errors*<br>
 ![Wave Errors](docs/screenshots/wave_errors.png)
 
-* The empty form label error refers to the label used for the hamburger icon for the navigation menu on smaller screen sizes. This is hidden on larger screen sizes due to style changes and therefore will remain this way.
+* The empty form label error refers to the label used for the hamburger icon for the navigation menu on smaller screen sizes. As an icon is used for this and there is no text content, it sees the label as empty and therefore gives this error. After some research, I fixed this error by added a p element with a class of sr-hidden. Through this class I could add some text but have its visibility set to hidden. This makes the text only visible for screen readers.
 
-* The two empty table headers errors refer to the opening/closing times tables and are intended to be blank. The column is for the day of the week which is self explanatory and therefore does not need a heading. 
+* The two empty table headers errors refer to the opening/closing times tables header for the column containing the days of the week and are were originally intended to be blank. To fix this, content of **Day** was added and given the class of sr-only to hide it from regular viewing but making it accessible for screen readers.
+
+*Wave Results After Fixing Errors*<br>
+
+![Wave No Errors](docs/screenshots/wave_noerrors.png)
+
 
 ### Lighthouse Testing
 
