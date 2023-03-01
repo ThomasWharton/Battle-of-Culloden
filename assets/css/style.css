@@ -780,7 +780,7 @@ textarea:focus {
 
 @media (min-width: 1200px) {
 
-    div.hero-image {
+    #home {
         height: 75vh;
     }
     
