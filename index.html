@@ -227,8 +227,8 @@
         <form action="thank-you.html" method="get" id="book-tour-form" class="book-tour-form box-shadow border-radius">
           <label for="full-name" class="form-left">Full Name</label>
           <input type="text" id="full-name" class="form-left" name="full-name" required>
-          <label for="number" class="form-left">Telephone Number</label>
-          <input type="text" id="number" class="form-left" name="telephone-number" required>
+          <label for="phone" class="form-left">Telephone Number</label>
+          <input type="tel" id="phone" class="form-left" name="telephone-number" minlength="11" pattern="[0][0-9]{10}" required>
           <label for="email" class="form-left">Email Address</label>
           <input type="email" id="email" class="form-left" name="email-address" required>       
           <label for="group-size" class="form-left">Group Size</label>
