@@ -114,11 +114,7 @@ th, td {
     border-radius: 0.5rem;
 }
 
-.nav-link a:hover,
-.toggle-nav-label:hover,
-.social-networks a:hover,
-#reset:hover,
-#submit:hover {
+.highlight:hover {
     color: var(--battleship-grey)
 }
 
@@ -138,16 +134,16 @@ header {
     width: 100%;
 }
 
-header a {
-    text-decoration: none;
-    margin: 0;
-}
-
 nav {
     display: none;
 }
 
-nav ul {
+.header-anchor {
+    text-decoration: none;
+    margin: 0;
+}
+
+.nav-menu {
     list-style: none;
     padding: 0;
     display: flex;
@@ -158,14 +154,15 @@ nav ul {
     font-size: 1.6rem;
 }
 
-nav li {
+.nav-link {
     margin-bottom: 0.5rem;
 }
 
-nav a {
+.nav-anchor {
     color: var(--white);
     text-transform: uppercase;
     font-family: var(--heading-font);
+    text-decoration: none;
 }
 
 #logo {
@@ -237,7 +234,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.history-grid p {
+.history-p {
     width: 90%;
 }
 
@@ -379,7 +376,7 @@ footer {
     font-family: var(--main-font);
     text-transform: uppercase;
     font-weight: bold;
-    box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
+    box-shadow: 0.3rem 0.3rem 0.3rem var(--battleship-grey);
     padding: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
