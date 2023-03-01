@@ -337,12 +337,11 @@ The site was deployed using GitHub. The steps for deployment are as follows:
 
 1. Navigate to repository for GitHub project.
 2. Navigate to settings tab.
-3. Navigate to page settings under "Code and automation".
-4. Under "Build and deployment" select "Deploy from branch" as source.
+3. Navigate to page settings under **Code and automation**.
+4. Under "Build and deployment" select **Deploy from branch** as source.
 5. Ensure the main branch is selected and click save.
 6. After these steps have been completed, the page should go live within a few minutes.
-
-[View live project here](https://thomaswharton.github.io/Battle-of-Culloden/)
+7. Your live project will be viewable from http://**your-username**.github.io/**your-project-title**/
 
 ## Credits
 
