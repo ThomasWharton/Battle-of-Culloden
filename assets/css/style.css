@@ -211,9 +211,6 @@ footer {
 
 #home {
     margin-bottom: 0;
-}
-
-div.hero-image {
     background: url(../images/the_battle_of_culloden.webp) no-repeat center center;
     background-size: cover;
     height: 40vh;
@@ -500,7 +497,7 @@ textarea:focus {
         font-size: 3rem;
     }
 
-    div.hero-image {
+    #home {
         height: 45vh;
     }
 
@@ -529,7 +526,7 @@ textarea:focus {
         font-size: 3rem;
     }
 
-    div.hero-image {
+    #home {
         height: 55vh;
     }
 
@@ -643,7 +640,7 @@ textarea:focus {
         display: none;
     }
 
-    div.hero-image {
+    #home {
         height: 65vh;
     }
 
