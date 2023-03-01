@@ -1,6 +1,6 @@
 # Battle of Culloden
 
-![Responsive Mockup](readme_images/am_i_responsive.png)
+![Responsive Mockup](docs/screenshots/am_i_responsive.png)
 
 ## Introduction
 
@@ -63,7 +63,7 @@ The initial colour (demin) was selected due to it being the blue colour in the S
 
 The colours and their uses are listed below.
 
-![Colour Palette](readme_images/colour_scheme.png)
+![Colour Palette](docs/screenshots/colour_scheme.png)
 
 * #005EB8 - This colour will be used for the header, footer and form elements. 
 * #009CFC - This colour will be used for the table and list borders.
@@ -89,9 +89,9 @@ Wireframes have been developed to give a general structure and layout to the sit
 
 The wireframes are linked below:
 
-### [Desktop Wireframe](wireframes/boc-desktop.png)
-### [Tablet Wireframe](wireframes/boc-tablet.png)
-### [Mobile Wireframe](wireframes/boc-mobile.png)
+### [Desktop Wireframe](docs/wireframes/boc-desktop.png)
+### [Tablet Wireframe](docs/wireframes/boc-tablet.png)
+### [Mobile Wireframe](docs/wireframes/boc-mobile.png)
 
 ## Features
 
@@ -102,40 +102,40 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 * Desktop (>= 992px)
     * The navbar spans the entire width of the device and is complete with all links to direct to the different sections of the site. This allows for easy and clear access to all content for the user.
 
-*Navbar large*
-![Navbar Desktop](readme_images/navbar_large.png)
+*Navbar large*<br>
+![Navbar Desktop](docs/screenshots/navbar_large.png)
 
     
 * The links will change colour when hovered over for better visibility for the user.
 
 *Navbar hover* <br>
-![Navbar Hover Effect](readme_images/nav_hover.png)
+![Navbar Hover Effect](docs/screenshots/nav_hover.png)
 
 * Small devices (<992px)
     * As the screen size decreases, the navigation menu becomes too long to fit into the navbar and remain aesthetically pleasing. Therefore on devices with a screen size of 992px or less, the navigation menu will be toggled on and off via a hamburger icon. When checked, the navigation menu will appear as a dropdown list.
 
 *Navbar Small*<br>
-![Navbar Small](readme_images/navbar_small.png)
+![Navbar Small](docs/screenshots/navbar_small.png)
 
 *Navbar dropdown*<br>
-![Navbar Dropdown](readme_images/nav_dropdown.png)
+![Navbar Dropdown](docs/screenshots/nav_dropdown.png)
 
 ### Home Section
 
 * The home section features the hero image which is an artist deptiction of the battle of Culloden. The image is very striking and works to create an interest for the user to learn more.
 
-*Hero image*
+*Hero image*<br>
 ![Hero Image](assets/images/the_battle_of_culloden.webp)
 
 ### History Section
 
 * The history section sets the scene with images and text content to build on the users initial interest in the battle. The images included are another depiction of the battle (similar to the hero image) and of both opposing side leaders. Each image is accompanied by some text, giving the user some basic information on the battle and the two forces.
 
-*Large Screen Size*
-![History Large](readme_images/history_large.png)
+*Large Screen Size*<br>
+![History Large](docs/screenshots/history_large.png)
 
 *Small and Medium Screen Size*<br>
-![History Small](readme_images/history_small.png)
+![History Small](docs/screenshots/history_small.png)
 
 ### Visitor Centre Section
 
@@ -145,73 +145,73 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
     * The museum subsection has some information on what users will hope to find in the museum with a couple of images of sample artifacts.
     * The user will also be given information regarding the opening/closing times of the museum.
      
-*Desktop*
-![Museum Desktop](readme_images/museum_large.png)
+*Desktop*<br>
+![Museum Desktop](docs/screenshots/museum_large.png)
 
 *Tablet*<br>
-![Museum Tablet](readme_images/museum_medium.png)
+![Museum Tablet](docs/screenshots/museum_medium.png)
 
 *Mobile*<br>
-![Museum Mobile](readme_images/museum_small.png)
+![Museum Mobile](docs/screenshots/museum_small.png)
 
 * Cafe Subsection
     * The cafe subsection includes a sample menu and the opening/closing times of the cafe.
 
-*Desktop*
-![Cafe Desktop](readme_images/cafe_large.png)
+*Desktop*<br>
+![Cafe Desktop](docs/screenshots/cafe_large.png)
 
 *Tablet*<br>
-![Cafe Tablet](readme_images/cafe_medium.png)
+![Cafe Tablet](docs/screenshots//cafe_medium.png)
 
 *Mobile*<br>
-![Cafe Mobile](readme_images/cafe_small.png)
+![Cafe Mobile](docs/screenshots/cafe_small.png)
 
 
 * Battlefield Subsection
     * The battlefield subsection features an image of Leanach cottage which is situated on the battlefield. This image gives the user an idea of the beauty to be found whilst exploring the battlefield.
     * The image is accompanied by some text describing the battlefield and other landmarks to be found.
 
-*Large Screen Size*
-![Battlefield Large](readme_images/battlefield_large.png)
+*Large Screen Size*<br>
+![Battlefield Large](docs/screenshots/battlefield_large.png)
 
 *Smaller Screen Size* <br>
-![Battlefield Smaller](readme_images/battlefield_small.png)
+![Battlefield Smaller](docs/screenshots/battlefield_small.png)
 
 ### Contact Information Section
 
 * The contact information section contains the telephone number, email and postal address of the visitor centre.
 * A google maps preview is embedded in this section with the ability to open up google maps in another tab. This allows users to easily plan travel to the visitor centre. 
 
-*Desktop*
-![Contact Desktop](readme_images/contact_large.png)
+*Desktop*<br>
+![Contact Desktop](docs/screenshots/contact_large.png)
 
 *Tablet*<br>
-![Contact Tablet](readme_images/contact_medium.png)
+![Contact Tablet](docs/screenshots/contact_medium.png)
 
 *Mobile*<br>
-![Contact Mobile](readme_images/contact_small.png)
+![Contact Mobile](docs/screenshots/contact_small.png)
 
 ### Book a Tour Section
 * The book a tour section includes information on the tours, such as how often they take place and pricing information for different group sizes.
 
 *Tablet*<br>
-![Tour Tablet](readme_images/tour_medium.png)
+![Tour Tablet](docs/screenshots/tour_medium.png)
 
 *Mobile*<br>
-![Tour Mobile](readme_images/tour_small.png)
+![Tour Mobile](docs/screenshots/tour_small.png)
 
 * There is also a booking form where the user can give information such as their name, email address, telephone number, group size, date of tour and special requirements.
 
-*Desktop*
-![Tour Section Large](readme_images/tour_large.png)
+*Desktop*<br>
+![Tour Section Large](docs/screenshots/tour_large.png)
 
 *Form on smaller screen*<br>
-![Form Small](readme_images/form_small.png)
+![Form Small](docs/screenshots/form_small.png)
 
 * Upon successful submission of the form, the user will be brought to a thank you page, confirming successful booking of a tour. The thank you page will include a link to navigate back to the main page.
 
-*Thank you page*
-![Thank You Page](readme_images/thank_you_page.png)
+*Thank you page*<br>
+![Thank You Page](docs/screenshots/thank_you_page.png)
 
 
 ### Footer
@@ -221,7 +221,7 @@ The navigation bar is fixed to the top of the screen to allow for easy access to
 * There is a hover effect to highlight the links, intended to improve the user experience.
 
 *Footer*
-![Footer](readme_images/footer.png)
+![Footer](docs/screenshots/footer.png)
 
 ### Features to be Implemented
 
@@ -261,20 +261,20 @@ Testing has been carried out extensively throughout the building process to ensu
 The HTML and CSS code have been validated using [W3C Markup Validation](https://validator.w3.org/#validate_by_input "W3C Markup Validation") and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation"). All code has validated successfully without errors.
 
 *HTML Validation*<br>
-![HTML Validation](readme_images/w3c_html.png)
+![HTML Validation](docs/screenshots/w3c_html.png)
 
 *CSS Validation*<br>
-![CSS Validation](readme_images/w3c_css.png)
+![CSS Validation](docs/screenshots/w3c_css.png)
 
 ### Wave Testing
 
 Testing has been completed using [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/ "WAVE Web Accessibility Evaluation Tool") to ensure the site is fully accessible to those with impairments. The tests completed with minimal errors and those that do remain are intended, therefore will not be rectified. 
 
 *Wave Test Results*<br>
-![Wave Test Results](readme_images/wave_report.png)
+![Wave Test Results](docs/screenshots/wave_report.png)
 
 *Wave Errors*<br>
-![Wave Errors](readme_images/wave_errors.png)
+![Wave Errors](docs/screenshots/wave_errors.png)
 
 * The empty form label error refers to the label used for the hamburger icon for the navigation menu on smaller screen sizes. This is hidden on larger screen sizes due to style changes and therefore will remain this way.
 
@@ -285,10 +285,10 @@ Testing has been completed using [WAVE Web Accessibility Evaluation Tool](https:
 The lighthouse function within devtools has been used to test the site for mobile and desktop. The site scores well across the board with room for some minor improvements. As these are minor and the site performs well, these are not deemed necessary to resolve. The lighthouse function proved useful in optimising the site with regards to reformating images and for optimising accessibility.
 
 *Desktop Lighthouse Results*<br>
-![Desktop Lighthouse Results](readme_images/lighthouse_desktop.png)
+![Desktop Lighthouse Results](docs/screenshots/lighthouse_desktop.png)
 
 *Mobile Lighthouse Results*<br>
-![Mobile Lighthouse Results](readme_images/lighthouse_mobile.png)
+![Mobile Lighthouse Results](docs/screenshots/lighthouse_mobile.png)
 
 The site scores full marks for accessibility and search engine optimisation with some small improvements to be made with performance and best practices. It is also worth noting that the site performs slightly better on desktop than on mobile. This is in regards to rendering the images used on the site.
 
