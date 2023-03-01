@@ -21,7 +21,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 18.5rem;
 }
 
 /* Main Styling */
@@ -483,6 +483,10 @@ textarea:focus {
 
 @media (min-width: 576px) {
 
+    html {
+        scroll-padding-top: 19.5rem;
+    }
+
     .heading {
         font-size: 3.5rem;
     }
@@ -598,6 +602,10 @@ textarea:focus {
 /* Large Screen Size */
 
 @media (min-width: 992px) {
+
+    html {
+        scroll-padding-top: 5rem;
+    }
 
     p {
         font-size: 1.8rem;
