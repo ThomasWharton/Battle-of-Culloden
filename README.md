@@ -345,4 +345,4 @@ The site was deployed using GitHub. The steps for deployment are as follows:
 
 ## Credits
 
-I would like to thank my mentor Simen Daehlin for all his advice. For helping me with how to start/structure my project, optimise my code and for the encouragement to give me confidence in my abilities. 
+I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") for all his advice. For helping me with how to start/structure my project, optimise my code and for the encouragement to give me confidence in my abilities. 
