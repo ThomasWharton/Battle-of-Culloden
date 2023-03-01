@@ -114,7 +114,9 @@ th, td {
     border-radius: 0.5rem;
 }
 
-.highlight:hover {
+.highlight:hover,
+#submit:hover,
+#reset:hover {
     color: var(--battleship-grey)
 }
 
@@ -331,7 +333,7 @@ footer {
     margin: 1rem 0;
 }
 
-.address h3 {
+.address-subheading {
     padding-top: 0;
 }
 
@@ -452,21 +454,21 @@ textarea:focus {
     text-align: center;
 }
 
-.thank-you-page h1 {
+.thank-you-page-heading {
     font-family: 'Cinzel', serif;
     color: var(--white);
     font-size: 5rem;
     letter-spacing: 0.2rem; 
 }
 
-.thank-you-page p {
+.thank-you-page-p {
     font-family: var(--main-font);
     color: var(--white);
     font-size: 2rem;
     text-align: center;
 }
 
-.thank-you-page a {
+.thank-you-page-a {
     text-decoration: none;
     font-family: var(--main-font);
     color: var(--celestial-blue);
@@ -474,7 +476,7 @@ textarea:focus {
     text-transform: uppercase;
 }
 
-.thank-you-page a:hover {
+.thank-you-page-a:hover {
     color: var(--battleship-grey);
 }
 
@@ -625,18 +627,18 @@ textarea:focus {
         display: block;
     }
 
-    nav ul {
+    .nav-menu {
         flex-direction: row;
         gap: 1rem;
         margin-right: 1rem;
     }
 
-    nav li {
+    .nav-link {
         border-bottom: 0.1rem solid var(--white);
         padding: 0.2rem;
     }
 
-    nav li:hover {
+    .nav-link:hover {
         border-bottom: 0.1rem solid var(--battleship-grey);
     }
 
