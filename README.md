@@ -8,6 +8,40 @@ Battle of Culloden is a website giving a brief history of the Battle of Culloden
 
 This site is aimed at tourists of Scotland looking to plan a day out with the ability to book a guided tour around the museum and battlefield.
 
+## Table of Contents
+
+  * [UX](#ux)
+    + [User Goals](#user-goals)
+    + [User Stories](#user-stories)
+    + [Site Owner Goals](#site-owner-goals)
+    + [Requirements](#requirements)
+    + [Expectations](#expectations)
+  * [Design Choices](#design-choices)
+    + [Fonts](#fonts)
+    + [Icons](#icons)
+    + [Colours](#colours)
+    + [Structure](#structure)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Navigation Bar](#navigation-bar)
+    + [Home Section](#home-section)
+    + [History Section](#history-section)
+    + [Visitor Centre Section](#visitor-centre-section)
+    + [Contact Information Section](#contact-information-section)
+    + [Book a Tour Section](#book-a-tour-section)
+    + [Footer](#footer)
+    + [Features to be Implemented](#features-to-be-implemented)
+  * [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Libraries & Framework](#libraries---framework)
+    + [Tools](#tools)
+  * [Testing](#testing)
+    + [Validator Testing](#validator-testing)
+    + [Wave Testing](#wave-testing)
+    + [Lighthouse Testing](#lighthouse-testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+
 ## UX
 
 ### User Goals
