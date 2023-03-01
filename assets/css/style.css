@@ -98,6 +98,10 @@ th, td {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .box-shadow {
     box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
 }
