@@ -31,14 +31,6 @@ body {
     font-family: var(--main-font);
 }
 
-.section-white {
-    background-color: var(--white);
-}
-
-.section-blue {
-    background-color: var(--honolulu-blue);
-}
-
 h2,
 h3 {
     font-family: var(--heading-font);
@@ -46,6 +38,38 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     padding: 1rem;
+}
+
+p {
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+    width: 75%;
+    border-radius: 0.5rem;
+}
+
+table {
+    border: 0.3rem solid var(--celestial-blue);
+    text-align: center;
+    font-family: var(--main-font);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    border: 0.1rem solid var(--battleship-grey);
+    text-align: center;
+}
+
+.section-white {
+    background-color: var(--white);
+}
+
+.section-blue {
+    background-color: var(--honolulu-blue);
 }
 
 .heading-white {
@@ -64,15 +88,6 @@ h3 {
         font-size: 2.5rem;
 }
 
-p {
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    text-align: left;
-    padding: 0.5rem;
-    width: 75%;
-    border-radius: 0.5rem;
-}
-
 .background-blue {
     background-color: var(--honolulu-blue);
     color: var(--white);
@@ -83,27 +98,16 @@ p {
     color: var(--honolulu-blue);
 }
 
-table {
-    border: 0.3rem solid var(--celestial-blue);
-    text-align: center;
-    font-family: var(--main-font);
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 1rem;
-    border: 0.1rem solid var(--battleship-grey);
-    text-align: center;
-}
-
 .bold {
     font-weight: bold;
 }
 
-.box-shadow {
+.box-shadow-grey {
     box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
+}
+
+.box-shadow-white {
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--white);
 }
 
 .border-radius {
@@ -361,10 +365,9 @@ footer {
     width: 28rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem var(--battleship-grey);
 }
 
-#book-tour-form label {
+.form-label {
     color: var(--white);
     letter-spacing: 0.2rem;
     font-weight: 500;
